@@ -1,0 +1,10 @@
+com\phone\contacts\exception\ErrorResponse.class
+com\phone\contacts\exception\GlobalException.class
+com\phone\contacts\PhoneContactsAppApplication.class
+com\phone\contacts\controller\ContactController.class
+com\phone\contacts\exception\ContactIsAlreadyExists.class
+com\phone\contacts\entities\Contact.class
+com\phone\contacts\repo\ContactRepo.class
+com\phone\contacts\config\SwaggerAppConfig.class
+com\phone\contacts\service\ContactService.class
+com\phone\contacts\exception\ContactNotFoundException.class
