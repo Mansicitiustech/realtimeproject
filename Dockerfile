@@ -1,6 +1,5 @@
 FROM openjdk:8
-MAINTAINER baeldung.com
-ADD target/phoneContactsApp-0.0.1-SNAPSHOT.jar phoneContactsApp.jar
-
-ENTRYPOINT ["java","-jar","phoneContactsApp.jar"]
-EXPOSE 8081
+MAINTAINER mansi
+COPY target/contact-App.jar contact-App.jar
+ENTRYPOINT ["java","-jar","/contact-App.jar"]
+EXPOSE:8080
