@@ -62,7 +62,7 @@
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
                 <configuration>
-                    <finalName>contact-App.jar</finalName>
+                    <finalName>contact-App</finalName>
                 </configuration>
             </plugin>
 		</plugins>
